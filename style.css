@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #ddd;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+canvas {
+  --_size: 80vw;
+  --_max-size: 600px;
+
+  background-color: #111;
+  max-height: var(--_max-size);
+  max-width: var(--_max-size);
+  height: var(--_size);
+  width: var(--_size);
+}
