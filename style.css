@@ -78,7 +78,7 @@ button:active {
   scale: .95;
 }
 
-@media handheld {
+@media (orientation: portrait) {
   .arrows-btn {
     display: flex;
   }

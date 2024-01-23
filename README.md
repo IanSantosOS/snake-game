@@ -13,3 +13,6 @@ A simple snake game
 
 ### Vídeos
 [Como criar o jogo da cobrinha com JavaScript e HTML | JavaScript para iniciantes - Tutorial](https://www.youtube.com/watch?v=LyWSsZktVOg)
+
+### Links
+[Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
