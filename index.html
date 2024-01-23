@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snake Game</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-  <h1>Pontos:</h1>
+  <h1>Snake Game</h1>
   <canvas width="600" height="600"></canvas>
-  <script src="./script.js"></script>
+
+  <div class="arrows-btn">
+    <button id="btn-up">up</button>
+    <div>
+      <button id="btn-left">left</button>
+      <button id="btn-down">down</button>
+      <button id="btn-right">right</button>
+    </div>
+  </div>
+
+  <p id="score">Score: <span>0</span></p>
+
+  <script src="./my-script.js"></script>
 </body>
+
 </html>

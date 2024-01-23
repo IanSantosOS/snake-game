@@ -16,17 +16,70 @@ body {
   background-color: #191919;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
-canvas {
-  --_size: 80vw;
-  --_max-size: 600px;
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+
+h1 {
+  margin: .7em;
+}
+
+canvas {
   background-color: #111;
-  max-height: var(--_max-size);
-  max-width: var(--_max-size);
-  height: var(--_size);
-  width: var(--_size);
+  max-width: 600px;
+  width: 80vw;
+}
+
+aside {
+  align-self: flex-start;
+}
+
+#score {
+  font-size: 1.3em;
+  margin: .5em;
+  text-align: center;
+}
+
+.arrows-btn {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+}
+
+.arrows-btn>div {
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  background-color: #15ff04;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: .2rem;
+  border: none;
+  opacity: .8;
+  transition:
+    .15s ease-in-out opacity,
+    .1s scale;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  opacity: 1;
+  scale: .95;
+}
+
+@media handheld {
+  .arrows-btn {
+    display: flex;
+  }
 }
